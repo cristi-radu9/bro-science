@@ -1,0 +1,32 @@
+.logoPositionBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.logoAdjustmentBanner{
+width: 250px;
+height: 200px;
+}
+
+.videoPositionBanner{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+@media (max-width:750px){
+    .logoPositionBanner{
+        margin-top: 200px;
+    }
+    .logoAdjustmentBanner{
+        width: 150px;
+        height: 100px;
+    }
+}

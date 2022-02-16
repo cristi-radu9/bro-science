@@ -1,0 +1,45 @@
+.nav-head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 4rem;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navItems{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navA{
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoAdjustmentNav{
+    width: 110px;
+    height: 70px;
+}
+
+@media(max-width:750px){
+    .logoAdjustmentNav{
+        width: 80px;
+        height: 50px;
+    }
+}
+
+.nav-dissapear{
+    transform: translateX(100%);
+}

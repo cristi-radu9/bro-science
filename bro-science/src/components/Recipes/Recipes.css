@@ -1,0 +1,100 @@
+.receipes-title{
+    font-size: 4rem;
+    font-style: italic;
+    color: black;
+    text-transform: uppercase;
+    margin: 3rem 0;
+}
+
+.recipesForm {
+    width: 70%;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 0.5rem;
+    padding-top: 2rem;
+    margin-bottom: 10rem;
+    box-shadow: 0.5rem 2rem 4rem rgba(0,0,0,.8);
+  }
+
+.search{
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 0.1rem solid #ccc;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    height: 3rem;
+    padding: 0 0.5rem;
+    width: 60%;
+    color: #555;
+}
+
+.searchButton{
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 0.1rem solid;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 25%;
+    text-transform: uppercase;
+    background-color: #3db88f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.filterButton{
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    width: 7%;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #d8d8d8;
+    color: black;
+    cursor: pointer;
+}
+
+.filterButton:hover{
+    background-color: #3db88f;
+}
+
+
+.recipesArray {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media(max-width:750px){
+    .receipes-title{
+        font-size: 1.5rem;
+        font-style: italic;
+        color: black;
+        text-transform: uppercase;
+        margin: 2rem 0;
+    }
+    .recipesForm {
+        width: 70%;
+        height: 5rem;
+        box-shadow: 1rem 2rem 5rem rgba(0,0,0,.9);
+    }
+    .search{
+        font-size: 1rem;
+        height: 2rem;
+        padding: 0 0.5rem;
+        width: 54%;
+    }
+    .searchButton{
+        font-size: 0.6rem;
+        height: 2rem;
+        width: 25%;
+    }
+}

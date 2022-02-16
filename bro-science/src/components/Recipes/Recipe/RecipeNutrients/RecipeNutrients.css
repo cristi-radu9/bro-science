@@ -1,0 +1,63 @@
+.nutrientsContainer{
+  width: 70%;
+  height: 100%;
+  background-color: #d8d8d8;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 3rem 4rem #aaa;
+}
+
+.backToRecipes{
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #40b48e;
+  padding: 0.3rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  height: 3rem;
+  width: 6rem;
+  text-align: center;
+}
+
+.headerContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nutrientsLabel{
+  background-color: rgba(12, 8, 8, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.ulContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.liContainer{
+  padding: 1rem;
+}
+
+.nutrientList {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  list-style: none;
+}
+  
+.nutrientText {
+  font-size: 1.5rem;
+  color: #888;
+  margin:1rem 0rem 0rem 0rem;
+}
+  
+.nutrientQuantity {
+  color: #40b48e;
+  font-size: 1rem;
+}
